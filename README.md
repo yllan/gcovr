@@ -1,10 +1,14 @@
-============
 gcovr README
 ============
 
 This package defines the `gcovr` script, which manages the compilation of
 coverage information from `gcov`.
 
+--------------------------------
+Fix For Bamboo Cobertura Plug-in
+--------------------------------
+
+Since Bamboo Cobertura Plug-in requires the root node have attributes `line-rate` and `branch-rate` which official gcovr doesn't have, I added these values to support Bamboo.
 
 -------
 License
